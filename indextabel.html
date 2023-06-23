@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabel aja</title>
+    <link rel="stylesheet" href="styletabel.css" />
+</head>
+
+<body>
+    <div id="menu">
+        <button onclick="changeTable('table1')">SEMESTER 1</button>
+        <button onclick="changeTable('table2')">SEMESTER 2</button>
+        <button onclick="changeTable('table3')">SEMESTER 3</button>
+        <button onclick="changeTable('table4')">SEMESTER 4</button>
+        <button onclick="changeTable('table5')">SEMESTER 5</button>
+        <button onclick="changeTable('table6')">SEMESTER 6</button>
+        <button onclick="changeTable('table7')">SEMESTER 7</button>
+        <button onclick="changeTable('table8')">SEMESTER 8</button>
+    </div>
+
+    <table id="table1" class="table show">
+        <tr>
+            <th colspan="4">SEMESTER 1</th>
+        </tr>
+        <tr>
+            <th>No</th>
+            <th>Kode</th>
+            <th>Mata Kuliah</th>
+            <th>SKS</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SCE61101</td>
+            <td>Fisika Satu</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SCE61101</td>
+            <td>Fisika Satu</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SCE61101</td>
+            <td>Fisika Satu</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <table id="table2" class="table">
+        <tr>
+            <th>Header A</th>
+            <th>Header B</th>
+            <th>Header C</th>
+        </tr>
+        <tr>
+            <td>Data A</td>
+            <td>Data B</td>
+            <td>Data C</td>
+        </tr>
+    </table>
+
+    <table id="table3" class="table">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>johndoe@example.com</td>
+            <td>1234567890</td>
+        </tr>
+    </table>
+    <table id="table4" class="table">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>John Doe kun</td>
+            <td>johndoe@example.com</td>
+            <td>1234567890</td>
+        </tr>
+    </table>
+    <script>
+        // Menampilkan tabel default (Tabel 1) saat halaman dimuat
+        window.onload = function () {
+            var defaultTable = document.getElementById("table1");
+            defaultTable.classList.add("show");
+        }
+
+        function changeTable(tableId) {
+            // Menghilangkan kelas "show" dari semua tabel
+            var tables = document.getElementsByClassName("table");
+            for (var i = 0; i < tables.length; i++) {
+                tables[i].classList.remove("show");
+            }
+
+            // Menampilkan tabel yang sesuai dengan ID yang diberikan
+            var tableToShow = document.getElementById(tableId);
+            tableToShow.classList.add("show");
+        }
+
+        function changeColor(button) {
+            // Menghapus kelas "default" dari semua tombol
+            var buttons = document.getElementsByClassName("btn");
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove("default");
+            }
+
+            // Menambahkan kelas "default" ke tombol yang dipilih
+            button.classList.add("default");
+        }
+    </script>
+
+</body>
+
+</html>
