@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KURIKULUM</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="atas">
+            <div class="logoTulisan">
+                <img src="logoUnand.png" class="gambarUnand">
+                <div class="tulisan">Departemen Teknik Komputer <span>Fakultas Teknologi Informasi <br>Universitas
+                        Andalas</br> </span></div>
+            </div>
+            <form class="example" action="/action_page.php" style="max-width:300px">
+                <input type="text" placeholder="Search.." name="search2">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="bawah">
+            <a href="index.html">Home</a>
+            <a href="#">Profil</a>
+            <a href="#">News</a>
+            <div class="dropdown">
+                <button class="dropbtn">Staff
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Dosen</a>
+                    <a href="#">Tenaga Kependidikan</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Akademik
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Lab</a>
+                    <a href="#">Jurnal</a>
+                    <a href="#">Kalender Akademik</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Tracer Study
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Data Alumni</a>
+                    <a href="#">Survey Alumni</a>
+                    <a href="#">IKA</a>
+                </div>
+            </div>
+            <img src="indo.png">
+        </div>
+    </nav>
+    <section class="bagiankurikulum">
+        <div class="dua">
+            <div class="tulisandiatastabel">Home > Kurikulum</div>
+            <div class="tabelsemester">
+                <div>Sebaran Mata Kuliah Departemen Teknik Komputer Universitas Andalas 2023</div>
+
+
+                <!-- tabel star -->
+                <div class="awalMenu" id="menu">
+                    <button onclick="changeTable('table1')">SEMESTER 1</button>
+                    <button onclick="changeTable('table2')">SEMESTER 2</button>
+                    <button onclick="changeTable('table3')">SEMESTER 3</button>
+                    <button onclick="changeTable('table4')">SEMESTER 4</button>
+                    <button onclick="changeTable('table5')">SEMESTER 5</button>
+                    <button onclick="changeTable('table6')">SEMESTER 6</button>
+                    <button onclick="changeTable('table7')">SEMESTER 7</button>
+                    <button onclick="changeTable('table8')">SEMESTER 8</button>
+                </div>
+                <!-- semester 1 -->
+                <table id="table1" class="table show">
+                    <tr>
+                        <th class="judultabel" colspan="4">SEMESTER 1</th>
+                    </tr>
+                    <tr class="headertabel">
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SCE61101</td>
+                        <td class="flexdetail">
+                            <p class="namamatkul">Fisika 1</p><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SCE61102</td>
+                        <td>
+                            <div class="namamatkul">Aljabar Linear</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SCE61103</td>
+                        <td>
+                            <div class="namamatkul">Matematika 1</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SCE61104</td>
+                        <td>
+                            <div class="namamatkul">Kimia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SCE61105</td>
+                        <td>
+                            <div class="namamatkul">Pengetahuan Lingkungan</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CCE61101</td>
+                        <td>
+                            <div class="namamatkul">Pengenalan Teknik Komputer</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MWU60101</td>
+                        <td>
+                            <div class="namamatkul">Agama</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MWU60102</td>
+                        <td>
+                            <div class="namamatkul">Bahasa Indonesia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                </table>
+
+                <table id="table2" class="table">
+                    <tr>
+                        <th class="judultabel" colspan="4">SEMESTER 2</th>
+                    </tr>
+                    <tr class="headertabel">
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SCE61101</td>
+                        <td>
+                            <div class="namamatkul">Fisika 2</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SCE61102</td>
+                        <td>
+                            <div class="namamatkul">Aljabar Linear</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SCE61103</td>
+                        <td>
+                            <div class="namamatkul">Matematika 2</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SCE61104</td>
+                        <td>
+                            <div class="namamatkul">Kimia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SCE61105</td>
+                        <td>
+                            <div class="namamatkul">Pengetahuan Lingkungan</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CCE61101</td>
+                        <td>
+                            <div class="namamatkul">Algoritma dan Pemecahan Masalah</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MWU60103</td>
+                        <td>
+                            <div class="namamatkul">Kewarganegaraan</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MWU60104</td>
+                        <td>
+                            <div class="namamatkul">Pancasila</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                </table>
+
+                <table id="table3" class="table">
+                    <tr>
+                        <th class="judultabel" colspan="4">SEMESTER 3</th>
+                    </tr>
+                    <tr class="headertabel">
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SCE61101</td>
+                        <td>
+                            <div class="namamatkul">Fisika 3</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SCE61102</td>
+                        <td>
+                            <div class="namamatkul">Jaringan Komputer</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SCE61103</td>
+                        <td>
+                            <div class="namamatkul">Matematika 3</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SCE61104</td>
+                        <td>
+                            <div class="namamatkul">Pengenalan Analisis Rangkaian</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SCE61105</td>
+                        <td>
+                            <div class="namamatkul">Rangkaian Logika Digital</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CCE61101</td>
+                        <td>
+                            <div class="namamatkul">Praktikum Analisis Rangkaian</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MWU60101</td>
+                        <td>
+                            <div class="namamatkul">Praktikum Logika Digital</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MWU60102</td>
+                        <td>
+                            <div class="namamatkul">English For Comunication</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                </table>
+                <table id="table4" class="table">
+                    <tr>
+                        <th class="judultabel" colspan="4">SEMESTER 4</th>
+                    </tr>
+                    <tr class="headertabel">
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SCE61101</td>
+                        <td>
+                            <div class="namamatkul">Fisika 3</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SCE61102</td>
+                        <td>
+                            <div class="namamatkul">Jaringan Komputer</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SCE61103</td>
+                        <td>
+                            <div class="namamatkul">Matematika 3</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SCE61104</td>
+                        <td>
+                            <div class="namamatkul">Pengenalan Analisis Rangkaian</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SCE61105</td>
+                        <td>
+                            <div class="namamatkul">Rangkaian Logika Digital</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CCE61101</td>
+                        <td>
+                            <div class="namamatkul">Praktikum Analisis Rangkaian</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MWU60101</td>
+                        <td>
+                            <div class="namamatkul">Praktikum Logika Digital</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MWU60102</td>
+                        <td>
+                            <div class="namamatkul">English For Comunication</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                </table>
+                <table id="table5" class="table">
+                    <tr>
+                        <th class="judultabel" colspan="4">SEMESTER 5</th>
+                    </tr>
+                    <tr class="headertabel">
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SCE61101</td>
+                        <td>
+                            <div class="namamatkul">Fisika 2</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SCE61102</td>
+                        <td>
+                            <div class="namamatkul">Aljabar Linear</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SCE61103</td>
+                        <td>
+                            <div class="namamatkul">Matematika 2</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SCE61104</td>
+                        <td>
+                            <div class="namamatkul">Kimia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SCE61105</td>
+                        <td>
+                            <div class="namamatkul">Pengetahuan Lingkungan</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CCE61101</td>
+                        <td>
+                            <div class="namamatkul">Algoritma dan Pemecahan Masalah</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MWU60103</td>
+                        <td>
+                            <div class="namamatkul">Kewarganegaraan</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MWU60104</td>
+                        <td>
+                            <div class="namamatkul">Pancasila</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                </table>
+                <table id="table6" class="table">
+                    <tr>
+                        <th class="judultabel" colspan="4">SEMESTER 6</th>
+                    </tr>
+                    <tr class="headertabel">
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SCE61101</td>
+                        <td class="flexdetail">
+                            <p class="namamatkul">Fisika 1</p><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SCE61102</td>
+                        <td>
+                            <div class="namamatkul">Aljabar Linear</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SCE61103</td>
+                        <td>
+                            <div class="namamatkul">Matematika 1</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SCE61104</td>
+                        <td>
+                            <div class="namamatkul">Kimia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SCE61105</td>
+                        <td>
+                            <div class="namamatkul">Pengetahuan Lingkungan</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CCE61101</td>
+                        <td>
+                            <div class="namamatkul">Pengenalan Teknik Komputer</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MWU60101</td>
+                        <td>
+                            <div class="namamatkul">Agama</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MWU60102</td>
+                        <td>
+                            <div class="namamatkul">Bahasa Indonesia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                </table>
+                <table id="table7" class="table">
+                    <tr>
+                        <th class="judultabel" colspan="4">SEMESTER 7</th>
+                    </tr>
+                    <tr class="headertabel">
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SCE61101</td>
+                        <td class="flexdetail">
+                            <p class="namamatkul">Fisika 1</p><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SCE61102</td>
+                        <td>
+                            <div class="namamatkul">Aljabar Linear</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SCE61103</td>
+                        <td>
+                            <div class="namamatkul">Matematika 1</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SCE61104</td>
+                        <td>
+                            <div class="namamatkul">Kimia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SCE61105</td>
+                        <td>
+                            <div class="namamatkul">Pengetahuan Lingkungan</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CCE61101</td>
+                        <td>
+                            <div class="namamatkul">Pengenalan Teknik Komputer</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MWU60101</td>
+                        <td>
+                            <div class="namamatkul">Agama</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MWU60102</td>
+                        <td>
+                            <div class="namamatkul">Bahasa Indonesia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                </table>
+                <table id="table8" class="table">
+                    <tr>
+                        <th class="judultabel" colspan="4">SEMESTER 8</th>
+                    </tr>
+                    <tr class="headertabel">
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SCE61101</td>
+                        <td class="flexdetail">
+                            <p class="namamatkul">Fisika 1</p><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SCE61102</td>
+                        <td>
+                            <div class="namamatkul">Aljabar Linear</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SCE61103</td>
+                        <td>
+                            <div class="namamatkul">Matematika 1</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SCE61104</td>
+                        <td>
+                            <div class="namamatkul">Kimia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>SCE61105</td>
+                        <td>
+                            <div class="namamatkul">Pengetahuan Lingkungan</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CCE61101</td>
+                        <td>
+                            <div class="namamatkul">Pengenalan Teknik Komputer</div><a class="detaillll"
+                                href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MWU60101</td>
+                        <td>
+                            <div class="namamatkul">Agama</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MWU60102</td>
+                        <td>
+                            <div class="namamatkul">Bahasa Indonesia</div><a class="detaillll" href="#">Detail</a>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                </table>
+
+                <!-- tabel end -->
+
+
+
+            </div>
+        </div>
+        <div class="satu">
+            <div class="kategori">
+                <div class="kat">
+                    <i data-feather="bookmark"></i>
+                    <h3>Kategori</h3>
+                </div>
+                <div class="garisKosong"></div>
+                <div class="tag">
+                    <a href="#">Pengumuman</a>
+                    <a href="#">Event</a>
+                    <a href="#">Lowongan Karir</a>
+                    <a href="#">Beasiswa</a>
+                    <a href="#">MBKM</a>
+                    <a href="#">Sistem Pendidikan</a>
+                </div>
+            </div>
+            <div class="beritaTerbaru">
+                <div class="satuuu">
+                    <i data-feather="book"></i>
+                    <h2>Berita Terbaru</h2>
+                </div>
+                <div class="garisss"></div>
+                <div class="tigaaa">
+                    <div class="berita1">
+                        <div class="fotoBerita">a</div>
+                        <div class="judulBerita">Sosialisasi Gemastik XVII oleh Wakil Dekan I FTI Unand <br><span>23 Mei
+                                2023</span> </div>
+                    </div>
+                    <div class="berita1">
+                        <div class="fotoBerita">a</div>
+                        <div class="judulBerita">Sosialisasi Gemastik XVII oleh Wakil Dekan I FTI Unand <br><span>23 Mei
+                                2023</span> </div>
+                    </div>
+                    <div class="berita1">
+                        <div class="fotoBerita">a</div>
+                        <div class="judulBerita">Sosialisasi Gemastik XVII oleh Wakil Dekan I FTI Unand <br><span>23 Mei
+                                2023</span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="pilihtabel.js"></script>
+
+</body>
+
+</html>
